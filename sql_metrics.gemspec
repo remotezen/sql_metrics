@@ -7,11 +7,11 @@ require "sql_metrics/version"
 Gem::Specification.new do |s|
   s.name        = "sql_metrics"
   s.version     = SqlMetrics::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SqlMetrics."
-  s.description = "TODO: Description of SqlMetrics."
+  s.authors     = ["Fred Hudson"]
+  s.email       = ["remotezen@bell.net"]
+  s.homepage    = "www.praxisweb.ca"
+  s.summary     = "Measure database performance"
+  s.description = "Just a test gem"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
