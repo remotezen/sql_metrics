@@ -1,6 +1,7 @@
 module SqlMetrics
   class  SqlMetricsController < ApplicationController
-    @metics = SqlMetrics::Metric.all
-    redirect_to sql_metrics_url
+    def index
+    @metrics = SqlMetrics::Metric.all
+    end
   end
 end
