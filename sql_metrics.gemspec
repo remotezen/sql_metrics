@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = SqlMetrics::VERSION
   s.authors     = ["Fred Hudson"]
   s.email       = ["remotezen@bell.net"]
-  s.homepage    = "www.praxisweb.ca"
+  s.homepage    = "http://www.praxisweb.ca"
   s.summary     = "Measure database performance"
   s.description = "Just a test gem"
 
